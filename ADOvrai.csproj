@@ -71,6 +71,12 @@
     <Compile Include="Form_FicheGenre.Designer.cs">
       <DependentUpon>Form_FicheGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_FicheLivre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_FicheLivre.Designer.cs">
+      <DependentUpon>Form_FicheLivre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_ListeAdherents.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,10 +95,18 @@
     <Compile Include="Form_ListeGenres.Designer.cs">
       <DependentUpon>Form_ListeGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_ListeLivres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ListeLivres.Designer.cs">
+      <DependentUpon>Form_ListeLivres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Genre.cs" />
+    <Compile Include="Livre.cs" />
     <Compile Include="ManagerAdherent.cs" />
     <Compile Include="ManagerAuteur.cs" />
     <Compile Include="ManagerGenre.cs" />
+    <Compile Include="ManagerLivre.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,9 +115,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form_FicheAdherent.aa.resx">
-      <DependentUpon>Form_FicheAdherent.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form_FicheAdherent.resx">
       <DependentUpon>Form_FicheAdherent.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +124,9 @@
     <EmbeddedResource Include="Form_FicheGenre.resx">
       <DependentUpon>Form_FicheGenre.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_FicheLivre.resx">
+      <DependentUpon>Form_FicheLivre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_ListeAdherents.resx">
       <DependentUpon>Form_ListeAdherents.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_ListeGenres.resx">
       <DependentUpon>Form_ListeGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ListeLivres.resx">
+      <DependentUpon>Form_ListeLivres.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -137,6 +154,7 @@
     <None Include="Properties\DataSources\Adherent.datasource" />
     <None Include="Properties\DataSources\Auteur.datasource" />
     <None Include="Properties\DataSources\Genre.datasource" />
+    <None Include="Properties\DataSources\Livre.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

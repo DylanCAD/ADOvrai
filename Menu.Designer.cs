@@ -94,6 +94,7 @@
             this.livresToolStripMenuItem.Name = "livresToolStripMenuItem";
             this.livresToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.livresToolStripMenuItem.Text = "Livres";
+            this.livresToolStripMenuItem.Click += new System.EventHandler(this.livresToolStripMenuItem_Click);
             // 
             // Menu
             // 

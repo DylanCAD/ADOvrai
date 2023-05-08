@@ -64,6 +64,7 @@
             this.Mel});
             this.dgv_ListeAdherents.DataSource = this.bs;
             this.dgv_ListeAdherents.Location = new System.Drawing.Point(12, 12);
+            this.dgv_ListeAdherents.MultiSelect = false;
             this.dgv_ListeAdherents.Name = "dgv_ListeAdherents";
             this.dgv_ListeAdherents.ReadOnly = true;
             this.dgv_ListeAdherents.RowHeadersWidth = 51;

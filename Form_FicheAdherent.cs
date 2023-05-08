@@ -39,7 +39,7 @@ namespace ADOvrai
                     txt_AdrVille.Enabled = false;
                     txt_Tel.Enabled = false;
                     txt_Mel.Enabled = false;
-                 
+
                 }
             }
             catch (Exception ex)
@@ -118,12 +118,9 @@ namespace ADOvrai
                 MessageBox.Show("Vous devez saisir un tel");
                 controle = false;
             }
-            if (txt_Mel.Text == "")
-            {
-                MessageBox.Show("Vous devez saisir un mel");
-                controle = false;
-            }
+
             return controle;
         }
+
     }
 }
